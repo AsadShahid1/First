@@ -49,6 +49,10 @@
                 <x-button class="ml-3">
                     {{ __('Log in') }}
                 </x-button>
+            
+                <x-my-component class="ml-3">
+                    {{('mybutton')}}
+                </x-my-component>
             </div>
         </form>
     </x-auth-card>
